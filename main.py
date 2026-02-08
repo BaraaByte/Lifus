@@ -79,7 +79,7 @@ class SafetyCheckError(Exception):
 class Config:
     DEFAULT_BLOCK_SIZE = "4M"
     DD_FLAGS = ["bs=4M", "status=progress", "conv=fsync"]
-    VENTOY_URL = "https://github.com/ventoy/Ventoy/releases/latest/download/ventoy-1.0.97-linux.tar.gz"
+    VENTOY_URL = "https://github.com/ventoy/Ventoy/releases/download/v1.1.10/ventoy-1.1.10-linux.tar.gz"
     
     # ISO detection patterns
     WINDOWS_SIGNATURES = [
